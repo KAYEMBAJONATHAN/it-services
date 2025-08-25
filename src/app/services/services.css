@@ -1,0 +1,44 @@
+.services {
+  padding: 2rem;
+  background-color: #f4f6f8;
+  border-radius: 12px;
+  max-width: 960px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.services-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+}
+
+.service-name {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #0078d4;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #555;
+}
