@@ -43,6 +43,5 @@ export class ServicesComponent {
       name: 'Cloud Services',
       description: 'Migration, management, and optimization of cloud platforms (Azure, AWS).'
     },
-
   ]
 }
