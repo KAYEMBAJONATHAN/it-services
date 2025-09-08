@@ -1,26 +1,135 @@
 .navbar {
-  background-color: aliceblue;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
+  list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: right;
-  padding-right: 50px;
+  justify-content: flex-end;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s;
 }
 
+.nav-links a:hover,
 .nav-links a.active {
   color: #007bff;
-  border-bottom: 2px solid #007bff;
 }
+
+.dropdown-menu.mega-menu {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 90vw;
+  max-height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.mega-column {
+  flex: 1 1 220px;
+  margin-right: 1.5rem;
+}
+
+.mega-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #007bff;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25rem;
+}
+
+.mega-items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.mega-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  padding: 0.4rem 0;
+  transition: color 0.2s;
+}
+
+.mega-link:hover {
+  color: #007bff;
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    flex-direction: column;
+    background: white;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    transition: right 0.3s ease;
+    padding: 1rem;
+  }
+
+  .nav-links.open {
+    right: 0;
+  }
+
+  .dropdown-menu.mega-menu {
+    flex-direction: column;
+    width: 100%;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+}
+.dropdown-menu.about-mega-menu {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 50vw; /* smaller than services */
+  max-height: 50vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.about-mega-menu .mega-column {
+  flex: 1 1 200px;
+  margin-right: 1.5rem;
+}
+
+.about-mega-menu .mega-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #007bff;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.25rem;
+}
+

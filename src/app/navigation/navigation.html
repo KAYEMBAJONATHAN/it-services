@@ -1,8 +1,43 @@
 <nav class="navbar">
   <ul class="nav-links">
-    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
-    <li><a routerLink="/services" routerLinkActive="active">Services</a></li>
-    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
-    <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+    <li>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">HOME</a>
+    </li>
+
+    <li class="dropdown" (mouseenter)="open2 = true" (mouseleave)="open2 = false">
+      <a [routerLink]="'/about'" (click)="toggleDropdown2($event)">ABOUT US ▾</a>
+
+      <div class="dropdown-menu about-mega-menu" *ngIf="open2 || dropdownOpen2">
+        <div *ngFor="let category of aboutCategories" class="mega-column">
+          <div class="mega-title">{{ category.name }}</div>
+          <div class="mega-items">
+            <a *ngFor="let item of category.items" [routerLink]="['/about', item.route]" class="mega-link"
+              (click)="closeDropdowns()">
+              {{ item.label }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="dropdown" (mouseenter)="open1 = true" (mouseleave)="open1 = false">
+      <a [routerLink]="'/services'" (click)="toggleDropdown1($event)">SERVICES ▾</a>
+
+      <div class="dropdown-menu mega-menu" *ngIf="open1 || dropdownOpen1">
+        <div *ngFor="let category of serviceCategories" class="mega-column">
+          <div class="mega-title">{{ category.name }}</div>
+          <div class="mega-items">
+            <a *ngFor="let item of category.items" [routerLink]="['/services', item.route]" class="mega-link"
+              (click)="closeDropdowns()">
+              {{ item.label }}
+            </a>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <a routerLink="/contact" routerLinkActive="active">CONTACT US</a>
+    </li>
   </ul>
 </nav>
