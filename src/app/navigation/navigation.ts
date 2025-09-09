@@ -101,20 +101,4 @@ export class Navigation {
       ]
     }
   ];
-
-  aboutCategories = [
-    {
-      name: '',
-      items: [
-        { label: 'Alliances',
-          route: 'alliances',
-          message: 'Discover our strategic partnerships and how they empower our platform.'
- },
-        { label: 'Overview',
-          route: 'overview',
-          message: 'Discover our strategic partnerships and how they empower our platform.'
-         }
-      ]
-    }
-  ];
 }

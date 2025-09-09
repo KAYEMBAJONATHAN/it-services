@@ -1,0 +1,201 @@
+.sas-alliance {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.sas-logo {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.sas-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.sas-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+.sap-alliance-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.sap-logo {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.sap-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.sap-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+.oracle-container {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.oracle-logo {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.oracle-intro {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 2rem;
+}
+
+.oracle-subsection {
+  margin-bottom: 1.5rem;
+}
+
+.oracle-subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.microsoft-alliance-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.microsoft-logo {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.microsoft-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.microsoft-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+.cisco-alliance-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.cisco-logo {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.cisco-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.cisco-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+.cisco-actions {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #2c3e50;
+}
+
+.cisco-actions li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.ibm-alliance-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.ibm-logo {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.ibm-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.ibm-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 1rem;
+}
